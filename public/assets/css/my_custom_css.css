@@ -1,0 +1,60 @@
+.image_for_coins_carrier {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    float: left;
+    cursor: pointer;
+    padding: 5px;
+}
+.image_for_coins_carrier:hover {
+    background-color: #ddd;
+}
+.image_for_coins {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.align_text_center {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .invoice-number {
+        float: left !important;
+        display: block !important;
+        margin-top: 0px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .invoice-number {
+        float: right !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .invoice-number {
+        float: right !important;
+    }
+}
+.copier_placement {
+    top: 45px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.my-main-content {
+    padding-left: 0px;
+    padding-right: 30px;
+    padding-top: 50px;
+    width: 100%;
+    position: relative;
+}
+
+@media (max-width: 1024px) {
+    .my-main-content {
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100% !important;
+    }
+}
